@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academlo Store</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <!--========== Logo Academlo con contorno ==========-->
+    <!--
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48">
+        <title class="aca-logo">Academlo Logo</title>
+        <g>
+            <g>
+                <path
+                d="M24.45,56.48,0,42.36V14.12L24.46,0,48.92,14.12V42.36ZM1.89,41.26l22.56,13L47,41.26v-26l-22.56-13-22.56,13Z">
+                </path>
+                <path
+                d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+                </path>
+            </g>
+        </g>
+    </svg>
+    -->
+
+    <!--=========== Logo Academlo sin contorno ==========-->
+  <header>  
+  <nav class="nav">
+    
+  <div class="navParts">
+    <ul class="navegacion1">
+     <li class="logo-nav">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48" fill="hsl(354, 78%, 60%)">
+        <title>Academlo Logo</title>
+        <g>
+          <g>
+            <path
+              d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+            </path>
+          </g>
+        </g>
+      </svg>
+     </li>
+     <li class="nav-item store">
+           <a href="#">Store</a>
+     </li>
+
+     <li class="nav-item home">
+           <a href="#">Home</a>
+     </li>
+           
+     <li class="nav-item products">
+           <a href="#">Products</a>
+     </li>
+    </ul>
+  
+
+
+  <!---------- PARTE INTERACTIVA DEL MENU --------->
+    <ul class="navegacion2">
+      <li class="nav-item navLuna">
+        <button type="submit" id="luna"><img src="luna.png" alt="">
+        </button>
+      </li>
+
+      <li class="nav-item navBag">
+        <button type="submit" id="bag"><img src="bag.png" alt="">
+        </button>
+      </li>
+        
+      
+      <li class="nav-item navMenu">
+        <button type="submit" id="menu"><img src="menu.png" alt="">
+        </button>
+      </li>
+    </ul>  
+
+    </nav>
+    <!----------------------------------------------------->
+
+    
+    <!--------------- ELEMENTOS BOTON MENU ---------------->
+    <div class="infoMenu">
+
+     <div class="hamMenu">
+      <ul>
+        <li class="navItem homeMenu">
+          <a href="#">Home</a>
+        </li>
+      
+        <li class="navItem productsMenu">
+          <a href="#">Products</a> 
+        </li>
+      </ul>
+     </div>
+    </div>
+    <!----------------------------------------------------->
+
+
+
+
+<!----------------ELEMENTOS BOTON CART ------------------->
+  <div class="myCart">
+
+    <div class="bagCart">
+      <h3>My Cart</h3>
+      <img src="./assets/images/empty-cart.png" alt="">
+      <h2>Your Cart is empty</h2>
+      <p>You can add items to your cart by clicking on the '+' button on the product page</p>
+    </div>
+
+    <div class="pricess"> 
+      <div class="cart__prices">
+        <span class="cart__prices-item"><span id="items-count"></span> items</span>
+      </div>
+      
+      <div>
+        <span class="cart__prices-total" id="cart-total">$</span>
+      </div>
+    </div> 
+    
+    
+    <div class="cart__checkout">
+      <button class="button cart__btn" id="cart-checkout" disabled><i class='bx bxs-check-shield'></i> Checkout</button>
+    </div>
+
+
+  </div>
+
+  
+   
+
+    </header>
+
+  <!------------------------------------------------------->
+   <div class="total-buzo1">
+    <div class="buzo1-cont">
+     <div class="img-buzo1">
+        <img src="./assets/images/home.png" alt="">
+     </div>
+    </div>
+
+     <div class="info-buzo1">
+        <h3>New Sweatshirt</h3>
+        <h2>COLLECTIONS 2022</h2>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, numquam. Inventore et reiciendis adipisci veritatis officia atque culp.
+        </P>
+        <span class="home__price">$14.00</span>
+
+          <div class="home__btns">
+            <a href="#" class="button button--gray button--small">
+              Discover
+            </a>
+
+            <button class="button home__button">ADD TO CART</button>
+          </div>
+     </div>
+    </div> 
+    
+ 
+    
+
+    <div class="contenido">
+      <div class="contenido-productos borde-derecho">
+        <h3>Show All</h3>
+        <p>show all products</p>
+      </div>
+      <div class="contenido-productos borde-derecho">
+        <h3>Hoodies</h3>
+        <p>3 products</p>
+      </div>
+      <div class="contenido-productos borde-derecho">
+        <h3>Shirts</h3>
+        <p>4 products</p>
+      </div>
+      <div class="contenido-productos">
+        <h3>Sweatshrits</h3>
+        <p>4 products</p>
+      </div>
+    </div>
+
+
+
+
+
+
+     <div class="tshirts">
+
+      <div class="t shirt1">
+           <img src="./assets/images/featured1.png" alt="">
+           <button class="button-tshirts">+</button>
+      </div>
+
+      <div class="t shirt2">
+           <img src="./assets/images/featured2.png" alt="">
+           <button class="button-tshirts">+</button>
+      </div>
+
+      <div class="t shirt3">
+           <img src="./assets/images/featured3.png" alt="">
+           <button class="button-tshirts">+</button>
+      </div>
+
+     </div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="piePagina">
+
+      <div class="piePagina-info">
+        <h3>Our information</h3>
+        <p>Toluca- Mexico</p>
+      </div>
+      <div class="piePagina-info">
+        <h3>About us</h3>
+        <p>Support Center</p>
+        <p>Customer Support</p>
+        <p>About Us</p>
+        <p>Copy Rigth</p>
+      </div>
+      <div class="piePagina-info">
+        <h3>Products</h3>
+        <p>Hoodies</p>
+        <p>Shirts</p>
+        <p>Sweatshirts</p>
+      </div>
+      <div class="piePagina-info">
+        <h3>Social</h3>
+        <div class="piePagina-info_redes">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+            style="fill: var(--text-color);transform: ;msFilter:;">
+            <path
+              d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z">
+            </path>
+          </svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+            style="fill: var(--text-color);transform: ;msFilter:;">
+            <path
+              d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z">
+            </path>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+            style="fill: var(--text-color);transform: ;msFilter:;">
+            <path
+              d="M20.947 8.305a6.53 6.53 0 0 0-.419-2.216 4.61 4.61 0 0 0-2.633-2.633 6.606 6.606 0 0 0-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 0 0-2.185.42 4.607 4.607 0 0 0-2.633 2.633 6.554 6.554 0 0 0-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 0 0 2.186-.419 4.615 4.615 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.187.043-.962.056-1.267.056-3.71-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 0 1 0 9.246zm4.807-8.339a1.077 1.077 0 0 1-1.078-1.078 1.077 1.077 0 1 1 2.155 0c0 .596-.482 1.078-1.077 1.078z">
+            </path>
+            <circle cx="11.994" cy="11.979" r="3.003"></circle>
+          </svg>
+        </div>
+      </div>
+    </footer>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
